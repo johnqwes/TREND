@@ -1183,7 +1183,7 @@ def main():
         with open('stacked_model_grad.pkl', 'rb') as file:
             stacked_model = pickle.load(file)
 
-            if tabs == "🎓 TRY":
+            if tabs == "🎓 Graduate":
 
                     st.markdown("<h1 style='color: #E97451;'>🎓 Graduate Prediction</h1>", unsafe_allow_html=True)
                     st.markdown("")
